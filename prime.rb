@@ -27,7 +27,7 @@ def prime?(i)
     
   else
     
-    for num in 2..i do
+    for num in 2...i do
       if (i % num) == 0
         return false
       end
