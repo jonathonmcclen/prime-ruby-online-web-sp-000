@@ -22,12 +22,12 @@ def prime?(i)
   if i <= 1
     return false
     
-  elsif i == 2 || i == 3
-    return true
+  # elsif i == 2 || i == 3
+  #   return true
     
   else
     
-    for num in 4..i do
+    for num in 2..i do
       if (i % num) == 0
         return false
       end
